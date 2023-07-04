@@ -7,12 +7,9 @@ public class Post {
     public String phone;
     public String surname;
     public boolean subscription;
+    public FormDate birthday;
 
 
 }
 
-public class FormDate {
-    public int day;
-    public int month;
-    public int year;
-}
+

@@ -10,9 +10,9 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = true;
 
-        FormDate birthDate = new FormDate();
-        birthDate.day = 12;
-        birthDate.month = 10;
-        birthDate.year = 1977;
+        post.birthday = new FormDate();
+        post.birthday.day = 12;
+        post.birthday.month = 10;
+        post.birthday.year = 1977;
     }
 }
